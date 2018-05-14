@@ -4,21 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Books catalog</title>
-    
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <table border="1">
-        <tr>
-            <th>Id</th>
-            <th>Isbn</th>
-            <th>Title</th>
-            <th>Author</th>
-            <th>Publisher</th>
-            <th>Type</th>
-            <th>Action</th>
-        </tr>
-    </table>
+
+<form method="POST">
+    <label>
+        Isbn:<br>
+        <input type="text" name="isbn"><br>
+    </label>
+    <label>
+        Title:<br>
+        <input type="text" name="title"><br>
+    </label>
+    <label>
+        Author:<br>
+        <input type="text" name="author"><br>
+    </label>
+    <label>
+        Publisher:<br>
+        <input type="text" name="publisher"><br>
+    </label>
+    <label>
+        Type:<br>
+        <input type="text" name="type"><br>
+    </label>
+    <input type="submit">
+</form>
+
+        <ul class="main">
+                <li>Titles</li>
+        </ul>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
